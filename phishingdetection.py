@@ -16,7 +16,7 @@ warnings.filterwarnings('ignore')
 from sklearn.ensemble import GradientBoostingClassifier
 
 # Load Data
-data = pd.read_csv("E:\Phising_det\datafile.csv")
+data = pd.read_csv("datafile.csv")
 X = data.drop(["class", "Index"], axis=1)
 y = data["class"]
 
@@ -114,7 +114,7 @@ ax.set_yticks([0.9, 0.91, 0.92, 0.93, 0.94, 0.95, 0.96, 0.97, 0.98, 0.99, 1])
 ax.set_xlabel('Model')
 ax.set_ylabel('Score')
 ax.set_title('Model Scores')
-plt.show()
+
 import whois
 
 import googlesearch

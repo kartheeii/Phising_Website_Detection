@@ -1,0 +1,11 @@
+numpy
+pandas
+scikit-learn
+seaborn
+catboost
+xgboost
+whois
+googlesearch-python
+beautifulsoup4
+requests
+python-dateutil
