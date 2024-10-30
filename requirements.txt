@@ -1,8 +1,10 @@
-numpy
+
 pandas
 scikit-learn
 seaborn
+numpy==1.23.5
 catboost==1.0.6
+--no-cache-dir
 xgboost
 whois
 googlesearch-python
