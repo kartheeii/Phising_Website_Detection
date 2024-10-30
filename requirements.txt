@@ -1,3 +1,6 @@
+pip==24.3.1
+setuptools>=75.0
+wheel>=0.44.0
 numpy==1.26.2
 catboost==1.2
 scikit-learn==1.2.2
@@ -9,3 +12,4 @@ googlesearch-python
 beautifulsoup4
 requests
 python-dateutil
+PyYAML==6.0.1
