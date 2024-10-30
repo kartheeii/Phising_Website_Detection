@@ -1,11 +1,9 @@
-
-pandas
-scikit-learn
-seaborn
-numpy==1.23.5
+numpy==1.21.6
 catboost==1.0.6
---no-cache-dir
+scikit-learn==0.24.2
+pandas
 xgboost
+seaborn
 whois
 googlesearch-python
 beautifulsoup4
